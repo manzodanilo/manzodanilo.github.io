@@ -194,7 +194,7 @@ footer { color: var(--muted); font-size: 14px; padding-top: 24px; border-top: 1p
       </div>
       <div>
         <h1 class="name">Danilo Manzo</h1>
-        <p class="role">Junior Data Analyst<br>, SQL and Python for business insights</p>
+        <p class="role">Junior Data Analyst<br>Excel, SQL and Python for business insights</p>
       </div>
     </div>
 
@@ -205,7 +205,7 @@ footer { color: var(--muted); font-size: 14px; padding-top: 24px; border-top: 1p
 
     <nav class="nav" aria-label="Sections">
       <a href="#about">About</a>
-      <a href="#"></a>
+      <a href="#skills">Skills</a>
       <a href="#projects">Projects</a>
       <a href="#training">Training</a>
       <a href="#contact">Contact</a>
@@ -225,7 +225,7 @@ footer { color: var(--muted); font-size: 14px; padding-top: 24px; border-top: 1p
       <div>
       <p>I am currently training as a Data Analyst, with a background in Economics and Digital Marketing. I enjoy turning messy data into clear stories that support decisions in marketing, operations and finance.</p>
       <p>In 2015, my brother and I co-founded a wine bar in our hometown, and running it is where I developed my strategic thinking. My interest in data grew during a Master in Digital Marketing, E-commerce and CRM at Sole 24 ORE Formazione, building on the descriptive and inferential statistics I studied for my degree in Economics and Business Management.</p>
-      <p>I am now following the Data Science, Analytics and AI Agents program at start2impact, building  in , SQL (PostgreSQL), Python and data visualization, and using AI tools to support research and analysis.</p>
+      <p>I am now following the Data Science, Analytics and AI Agents program at start2impact, building skills in Excel, SQL (PostgreSQL), Python and data visualization, and using AI tools to support research and analysis.</p>
       <p>After spending time in Ireland to improve my English, I am now looking for internship or junior opportunities in data analysis, and I am open to relocating internationally.</p>
       </div>
       <aside class="glance" aria-label="At a glance">
@@ -233,7 +233,7 @@ footer { color: var(--muted); font-size: 14px; padding-top: 24px; border-top: 1p
         <dl>
           <div><dt>Looking for</dt><dd>Internships and junior data analyst roles</dd></div>
           <div><dt>Based in</dt><dd>Lecce, Italy, open to relocating internationally</dd></div>
-          <div><dt>Main tools</dt><dd>, SQL (PostgreSQL), Python</dd></div>
+          <div><dt>Main tools</dt><dd>Excel, SQL (PostgreSQL), Python</dd></div>
           <div><dt>Languages</dt><dd>Italian (native)<br>English (limited working proficiency)</dd></div>
         </dl>
       </aside>
@@ -304,7 +304,7 @@ footer { color: var(--muted); font-size: 14px; padding-top: 24px; border-top: 1p
           </div>
 
           <ul class="tools" aria-label="Tools used">
-            <li>PostgreSQL</li><li>CTEs</li><li>Window functions</li><li>Materialized views</li><li></li><li>Data visualization</li>
+            <li>PostgreSQL</li><li>CTEs</li><li>Window functions</li><li>Materialized views</li><li>Excel</li><li>Data visualization</li>
           </ul>
 
           <div class="project-links">
@@ -315,6 +315,41 @@ footer { color: var(--muted); font-size: 14px; padding-top: 24px; border-top: 1p
       </article>
 
       <div class="projects-grid">
+        <article class="project compact">
+          <div class="cover">
+            <svg viewBox="0 0 340 130" role="img" aria-labelledby="orizon-chart-title">
+              <title id="orizon-chart-title">Travellers per destination in the 10 sample bookings: Argentina 14, Chile 12, Italy 5, Germany 4 and Spain 1</title>
+              <line x1="0" y1="110.5" x2="340" y2="110.5" stroke="#3B5583" stroke-width="1"/>
+              <rect x="20" y="20" width="44" height="90" rx="3" fill="#8FB3E0"/>
+              <rect x="84" y="32.9" width="44" height="77.1" rx="3" fill="#FFFFFF"/>
+              <rect x="148" y="77.9" width="44" height="32.1" rx="3" fill="#FFFFFF"/>
+              <rect x="212" y="84.3" width="44" height="25.7" rx="3" fill="#FFFFFF"/>
+              <rect x="276" y="103.6" width="44" height="6.4" rx="2" fill="#FFFFFF"/>
+              <g font-family="IBM Plex Sans, Arial, sans-serif" font-size="12" text-anchor="middle">
+                <text x="42" y="14" fill="#C9D6EA">14</text><text x="106" y="27" fill="#FFFFFF">12</text><text x="170" y="72" fill="#FFFFFF">5</text><text x="234" y="78" fill="#FFFFFF">4</text><text x="298" y="98" fill="#FFFFFF">1</text>
+                <text x="42" y="126" fill="#C9D6EA">Argentina</text><text x="106" y="126" fill="#FFFFFF">Chile</text><text x="170" y="126" fill="#FFFFFF">Italy</text><text x="234" y="126" fill="#FFFFFF">Germany</text><text x="298" y="126" fill="#FFFFFF">Spain</text>
+              </g>
+            </svg>
+            <p class="cover-caption">Travellers per destination, 10 sample bookings</p>
+          </div>
+          <div class="project-body">
+            <h3>Travel booking management system</h3>
+            <p>A Python notebook for a responsible-travel agency: it records bookings only after validating every field, rejects duplicates, searches them with combined filters and summarises them with statistics, using only the standard library.</p>
+            <div class="findings">
+              <div class="finding"><strong>21</strong><span>booking test cases in the notebook, covering valid input, wrong types, impossible dates and duplicates</span></div>
+              <div class="finding"><strong>4</strong><span>search filters that can be combined: country, trip type, maximum cost and minimum duration</span></div>
+              <div class="finding"><strong>5</strong><span>statistics: total bookings, travellers per country, trip types, top destinations and latest booking</span></div>
+            </div>
+            <ul class="tools" aria-label="Tools used">
+              <li>Python</li><li>Jupyter Notebook</li><li>Data validation</li><li>Functions</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/manzodanilo/orizon-gestione-prenotazioni" target="_blank" rel="noopener">View on GitHub (in Italian)</a>
+              <a href="https://github.com/manzodanilo/orizon-gestione-prenotazioni/blob/main/orizon_gestione_prenotazioni.ipynb" target="_blank" rel="noopener">Open the notebook</a>
+            </div>
+          </div>
+        </article>
+
         <article class="project compact">
           <div class="cover">
             <svg viewBox="0 0 340 130" role="img" aria-labelledby="airbnb-chart-title">
@@ -339,7 +374,7 @@ footer { color: var(--muted); font-size: 14px; padding-top: 24px; border-top: 1p
               <div class="finding"><strong>€330</strong><span>average spend per family member</span></div>
             </div>
             <ul class="tools" aria-label="Tools used">
-              <li></li><li>UNIQUE, FILTER, SORT</li><li>Pivot tables</li><li>Data cleaning</li>
+              <li>Excel</li><li>UNIQUE, FILTER, SORT</li><li>Pivot tables</li><li>Data cleaning</li>
             </ul>
             <div class="project-links">
               <a href="https://github.com/manzodanilo/Airbnb-guests-and-sustainable-mobility" target="_blank" rel="noopener">View on GitHub</a>
@@ -393,7 +428,7 @@ footer { color: var(--muted); font-size: 14px; padding-top: 24px; border-top: 1p
         <h3>Also from my training</h3>
         <ul>
           <li><strong>Data-driven strategy for a travel company</strong><span>Which KPIs to track, which data roles to hire and how data flows from collection to decisions, for a bus tour operator with electric vehicles. <a href="data-strategy-travel-company.pdf" target="_blank" rel="noopener">Presentation (PDF, in Italian)</a></span></li>
-          <li><strong> fundamentals</strong><span>Sales analysis exercise with SUMIFS, COUNTIFS, AVERAGEIF, conditional formatting, pivot tables and charts.</span></li>
+          <li><strong>Excel fundamentals</strong><span>Sales analysis exercise with SUMIFS, COUNTIFS, AVERAGEIF, conditional formatting, pivot tables and charts.</span></li>
         </ul>
       </div>
     </section>
